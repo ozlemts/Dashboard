@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Logo from "../components/Logo";
+import MonthLine from "../components/MonthLine";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
         <Logo width="200" height="200"/>
+        <MonthLine></MonthLine>
+        <MonthLine></MonthLine>
+        <MonthLine></MonthLine>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
