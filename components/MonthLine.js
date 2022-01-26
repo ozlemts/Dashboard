@@ -10,9 +10,10 @@ export function MonthLine(props) {
             <p className="text-xs p-1 m-0 rotate-45">Apr</p>
             <p className="text-xs p-1 m-0 rotate-45">May</p>
             <p className="text-xs p-1 m-0 rotate-45">Jun</p>
+            <p className="text-xs p-1 m-0 rotate-45">Jul</p>
             <p className="text-xs p-1 m-0 rotate-45">Aug</p>
             <p className="text-xs p-1 m-0 rotate-45">Sep</p>
-            <p className="text-xs p-1 m-0 rotate-45">Nav</p>
+            <p className="text-xs p-1 m-0 rotate-45">Nov</p>
             <p className="text-xs p-1 m-0 rotate-45">Dec</p>
           </div>
           <div className="w-96 flex justify-between m-0 p-0">

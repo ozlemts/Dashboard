@@ -3,13 +3,12 @@ import Logo from "./Logo";
 
 function Sidebar(props) {
   return (
-    <aside className="flex flex-col justify-between py-2 text-white bg-blue-900 dark:bg-black-900 w-72 min-h-screen hidden md:block ">
+    <aside className="flex flex-col justify-between py-2 text-white bg-indigo-900 w-72 min-h-screen hidden md:block ">
       <nav>
         <Link href="/">
-          <div className="p-4 flex items-center">
+          <div className="flex items-center">
             <span className="sr-only">Taka Insight Home Page</span>
-            <Logo width="48" height="48"/>
-            <p className="ml-2 font-semibold">Coffee Harvest Calender</p>
+            <Logo width="200" height="120"/>
           </div>
         </Link>
         <ul>
