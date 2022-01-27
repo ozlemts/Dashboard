@@ -13,9 +13,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <MonthLine></MonthLine>
-        <MonthLine></MonthLine>
-        <MonthLine></MonthLine>
+        <div className="flex items-center justify-center h-full w-full">
+          <div>
+            <MonthLine></MonthLine>
+            <MonthLine></MonthLine>
+            <MonthLine></MonthLine>
+          </div>
+        </div>
       </Layout>
     </div>
   )

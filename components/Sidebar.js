@@ -13,14 +13,14 @@ function Sidebar(props) {
         </Link>
         <ul>
           <li className="flex hover:opacity-70 w-100 p-4">
-            <img className="mr-4" src="/icons/kontrol-paneli.svg" />
+            <img className="mr-4" src="/down-arrow.svg" />
             <Link href="/dictionary">Dictionary</Link>
           </li>
         </ul>
       </nav>
 
       <li className="flex hover:opacity-70 hover:opacity-70 w-100 p-4">
-        <img className="mr-4" src="/icons/settings.svg" />
+        <img className="mr-4" src="/down-arrow.svg" />
         <Link href="/devices">Settings</Link>
       </li>
     </aside>
