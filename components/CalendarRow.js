@@ -3,9 +3,9 @@ import Bean from "./Bean";
 export function CalendarRow(props) {
 
   const setColor = (type) => {
-    if (type == '1')
+    if (type === '1')
       return '#ff007e'
-    else if (type == '2')
+    else if (type === '2')
       return '#582d80'
     else return '#CCC'
   }
@@ -18,7 +18,8 @@ export function CalendarRow(props) {
           {props.item.harvest.map((e, index) => (
             <div key={index} className="tooltip relative block flex justify-center w-4">
               <Bean color={setColor(e)}/>
-              <span className="tooltiptext absolute z-10 invisible hover:visible bg-indigo-500 text-white p-1 rounded mt-4 w-20 text-xs text-center">{index+1}. month</span>
+              <span
+                className="tooltiptext absolute z-10 invisible hover:visible bg-indigo-500 text-white p-1 rounded mt-4 w-20 text-xs text-center">{index + 1}. month</span>
             </div>
           ))}
         </div>

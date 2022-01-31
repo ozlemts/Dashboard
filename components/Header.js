@@ -1,3 +1,5 @@
+import DownArrow from "./icons/DownArrow";
+import File from "./icons/File";
 
 function Header() {
   return (
@@ -27,16 +29,22 @@ function Header() {
             fill="#979797"
           />
         </svg>
-        <img src="/down-arrow.svg" className="transform -rotate-90 mx-2" />
-        <img src="/file.svg" className="mr-2" />
-        <p className="text-gray-400">Harvest Calenders </p>
-        <img src="/down-arrow.svg" className="transform -rotate-90 mx-2" />
-        <img src="/file.svg" className="mr-2" />
-        <p className="text-gray-400">Coffee</p>
+        <div className="-rotate-90">
+          <DownArrow/>
+        </div>
+        <File/>
+        <p className="text-gray-400 mx-2">Harvest Calenders </p>
+        <div className="-rotate-90">
+          <DownArrow/>
+        </div>
+        <File/>
+        <p className="text-gray-400 mx-2">Coffee</p>
       </div>
       <div className="flex">
-        <p className="text-gray-400">Logout</p>
-        <img src="/down-arrow.svg" />
+        <p className="text-gray-400 mx-2">Logout</p>
+        <div className="-rotate-90">
+          <DownArrow/>
+        </div>
       </div>
     </div>
   );
