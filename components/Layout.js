@@ -5,7 +5,7 @@ import Head from "next/head";
 
 function Layout({ children, device_id, path }) {
   return (
-    <div className="h-screen">
+    <div className="h-screen font-epilogue">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
@@ -20,7 +20,7 @@ function Layout({ children, device_id, path }) {
         <Sidebar device_id={device_id} path={path} />
         <div className="flex flex-col justify-between w-full">
           <Header />
-          <div className="flex-grow bg-gray-100 dark:bg-black-800">
+          <div className="flex-grow bg-gray-100">
             {children}
           </div>
           <Footer />

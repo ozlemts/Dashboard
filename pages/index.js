@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Logo from "../components/Logo";
-import MonthLine from "../components/MonthLine";
 import Layout from "../components/Layout";
+import HarvestCalender from "../components/HarvestCalender";
 
 export default function Home() {
   return (
@@ -13,13 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <div className="flex items-center justify-center h-full w-full">
-          <div>
-            <MonthLine></MonthLine>
-            <MonthLine></MonthLine>
-            <MonthLine></MonthLine>
-          </div>
-        </div>
+        <HarvestCalender/>
       </Layout>
     </div>
   )
